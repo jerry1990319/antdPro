@@ -1,0 +1,40 @@
+.creatformel{
+
+    &::after{
+      content:'';   
+      height:0;
+      line-height:0;
+      display:block;
+      visibility:hidden;
+      clear:both;
+    }
+    :global{
+
+      .ant-form-item-control-wrapper{
+          width:100%;
+      }
+      .ant-row{
+       margin-bottom: 10px;
+      }
+      .anticon-plus-circle,.anticon-minus-circle{
+        font-size:22px;
+        margin-top:3px;
+      }
+     
+    }
+}
+.add-result{
+  width: 223px;
+  height: 50px;
+  border: none;
+  background: url('../../assets/images/add-btn.png') no-repeat top center;
+  background-size: 100% 100%;
+  display: block;
+  margin-top: 20px;
+  &:hover,&:active,&:focus{
+    color:#000;
+    background: url('../../assets/images/add-btn.png') no-repeat top center;
+    background-size: 100% 100%;
+  }
+
+}

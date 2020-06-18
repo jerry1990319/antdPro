@@ -1,0 +1,40 @@
+.creatform{
+    min-height: calc(100vh - 63px);
+      &::after{
+        content:'';   
+        height:0;
+        line-height:0;
+        display:block;
+        visibility:hidden;
+        clear:both;
+      }
+      :global{
+        .ant-form{
+          width:100%;
+          margin: 0 auto;
+          float: left;
+        
+        }
+        .ant-form-inline .ant-form-item{
+          width: 100%;
+          // padding: 1rem 0;
+          margin:10px 0;
+          // text-align: left;
+        }
+        .ant-form-item-label{
+          text-align: left;
+        }
+       
+      }
+      .rows{
+      text-align: center;
+      :global{
+        .ant-btn{
+          width:120px;
+          height: 46px;
+          line-height: 46px;
+          margin:10px;
+      }
+      }
+      }
+    }

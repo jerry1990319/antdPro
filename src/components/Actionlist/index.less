@@ -1,0 +1,135 @@
+.searchbox{
+    padding:0 20px;
+    ul{
+        padding:0;
+        margin:0;
+        li{
+            list-style: none;
+            display: inline-block;
+            margin-right: 15px;
+            cursor: pointer;
+            .all{
+                &::after{
+                    content:'';   
+                    width: 10px;
+                    height: 10px;
+                    background: url('../../assets/images/all.png') no-repeat top center;
+                    background-size: 100% 100%;
+                    display: inline-block;
+                    margin-left: 5px;
+                }
+              
+            }
+            .all-selected{
+                color: #232323;
+                font-size: 16px;
+                &::after{
+                    content:'';   
+                    width: 10px;
+                    height: 10px;
+                    background: url('../../assets/images/all-selected.png') no-repeat top center;
+                    background-size: 100% 100%;
+                    display: inline-block;
+                    margin-left: 5px;
+                }
+            }
+            .add{
+                &::after{
+                    content:'';   
+                    width: 11px;
+                    height: 11px;
+                    background: url('../../assets/images/add.png') no-repeat top center;
+                    background-size: 100% 100%;
+                    display: inline-block;
+                    margin-left: 5px;  
+                }
+
+            }
+            .add-selected{
+                color: #232323;
+                font-size: 16px;
+                &::after{
+                    content:'';   
+                    width: 11px;
+                    height: 11px;
+                    background: url('../../assets/images/add-selected.png') no-repeat top center;
+                    background-size: 100% 100%;
+                    display: inline-block;
+                    margin-left: 5px;
+                }
+            }
+            .management{
+                &::after{
+                    content:'';   
+                    width: 11px;
+                    height: 11px;
+                    background: url('../../assets/images/management.png') no-repeat top center;
+                    background-size: 100% 100%;
+                    display: inline-block;
+                    margin-left: 5px;  
+                }
+            }
+            .management-selected{
+                color: #232323;
+                font-size: 16px;
+                &::after{
+                    content:'';   
+                    width: 11px;
+                    height: 11px;
+                    background: url('../../assets/images/management-selected.png') no-repeat top center;
+                    background-size: 100% 100%;
+                    display: inline-block;
+                    margin-left: 5px;  
+                }
+            }
+            .imports{
+                &::after{
+                    content:'';   
+                    width: 11px;
+                    height: 11px;
+                    background: url('../../assets/images/import.png') no-repeat top center;
+                    background-size: 100% 100%;
+                    display: inline-block;
+                    margin-left: 5px;  
+                }
+            }
+            .imports-selected{
+                color: #232323;
+                font-size: 16px;
+                &::after{
+                    content:'';   
+                    width: 11px;
+                    height: 11px;
+                    background: url('../../assets/images/import-selected.png') no-repeat top center;
+                    background-size: 100% 100%;
+                    display: inline-block;
+                    margin-left: 5px;  
+                }
+            }
+            .deletes{
+                &::after{
+                    content:'';   
+                    width: 10px;
+                    height: 13px;
+                    background: url('../../assets/images/deletes.png') no-repeat top center;
+                    background-size: 100% 100%;
+                    display: inline-block;
+                    margin-left: 5px;  
+                }
+            }
+            .deletes-selected{
+                color: #232323;
+                font-size: 16px;
+                &::after{
+                    content:'';   
+                    width: 10px;
+                    height: 13px;
+                    background: url('../../assets/images/deletes-selected.png') no-repeat top center;
+                    background-size: 100% 100%;
+                    display: inline-block;
+                    margin-left: 5px;  
+                }
+            }
+        }
+    }
+}
